@@ -7,7 +7,7 @@ const Qualification = () => {
         setToggleState(index);
     }
     return (
-        <section className="section qualification">
+        <section className="section qualification" id="qualification">
             <h2 className="section_title"> Qualification </h2>
             <span className="section_subtitle">
                 My Personal Journey
@@ -94,6 +94,21 @@ const Qualification = () => {
                                 </div>
                             </div>
 
+                        </div>
+                        <div className="qualification_data">
+                            <div>
+                                <h3 className="qualification_title">
+                                    Aspire Leaders Program
+                                </h3>
+                                <span className="qualification_subtitle">Online - Harvard University</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calendar-alt"></i> 2022 - 2023
+                                </div>
+                            </div>
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
                         </div>
 
                     </div>
