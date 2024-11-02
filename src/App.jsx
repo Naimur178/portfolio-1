@@ -8,12 +8,14 @@ import Qualification from './components/qualification/Qualification';
 import Testimonial from './components/testimonial/Testimonial';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-const App = () => {
+
+function App () {
   
 
   return (
-    <>
+    <Router>
       <Header></Header>
       <main className="main">
         <Home></Home>
@@ -26,7 +28,7 @@ const App = () => {
         <Footer></Footer>
 
       </main>
-    </>
+    </Router>
   )
 }
 
