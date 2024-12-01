@@ -31,7 +31,8 @@ const Services = () => {
 
                                     </i>
                                     <p className="services_modal-info">
-                                        I Develop the user interface.
+                                    <b>Responsive design: </b>
+                                    Web developers can create websites that adjust their layout based on the size of the screen, so they look good on any device.
                                     </p>
 
                                 </li>
@@ -97,11 +98,12 @@ const Services = () => {
                             <p className="services_modal-description">Service with more then 1.5+ years of experience. Providing quality work to clients and companies. </p>
                             <ul className="services_modal-services grid">
                                 <li className="services_modal-service ">
-                                    <i className="uil uil-check-circle services_modal-icon">
+                                    <i className="uil uil-check-circle services_modal-icon ">
 
                                     </i>
                                     <p className="services_modal-info">
-                                        I Develop the user interface.
+                                    <b>Predictive analysis: </b>
+                                    Uses machine learning algorithms and statistics to predict future outcomes, such as sales forecasting and risk assessment
                                     </p>
 
                                 </li>
@@ -111,18 +113,8 @@ const Services = () => {
 
                                     </i>
                                     <p className="services_modal-info">
-                                        Web page development.
-                                    </p>
-
-                                </li>
-
-
-                                <li className="services_modal-service ">
-                                    <i className="uil uil-check-circle services_modal-icon">
-
-                                    </i>
-                                    <p className="services_modal-info">
-                                        I create user authentication system.
+                                    <b>Data visualization: </b>
+                                    Transforms data into a visual format, such as a bar chart, histogram, or pie chart
                                     </p>
 
                                 </li>
@@ -133,7 +125,20 @@ const Services = () => {
 
                                     </i>
                                     <p className="services_modal-info">
-                                        I position yout company brand.
+                                    <b>Big data analytics: </b>
+                                    Analyzes large amounts of data to find patterns and correlations, and make business decisions
+                                    </p>
+
+                                </li>
+
+
+                                <li className="services_modal-service ">
+                                    <i className="uil uil-check-circle services_modal-icon">
+
+                                    </i>
+                                    <p className="services_modal-info">
+                                    <b>Business intelligence: </b>
+                                    Uses sophisticated tools to collect and analyze data from various sources, and includes data mining, reporting, and analysis
                                     </p>
 
                                 </li>
@@ -143,7 +148,8 @@ const Services = () => {
 
                                     </i>
                                     <p className="services_modal-info">
-                                        Build authorization and level of access.
+                                    <b>Prescriptive analysis: </b>
+                                    Uses machine learning and artificial intelligence to predict future outcomes and suggest actions to benefit from them
                                     </p>
 
                                 </li>

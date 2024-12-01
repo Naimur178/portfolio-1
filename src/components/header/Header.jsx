@@ -36,6 +36,11 @@ function Header() {
                         </a>
                     </li>
                     <li className="nav_item">
+                        <a href="#projects" className="nav_link">
+                            <i className="uil uil-scenery nav_icon"></i> Projects
+                        </a>
+                    </li>
+                    <li className="nav_item">
                         <a href="#contact" className="nav_link">
                             <i className="uil uil-message nav_icon"></i> Contact
                         </a>

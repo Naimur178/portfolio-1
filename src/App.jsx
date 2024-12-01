@@ -10,6 +10,8 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Projects from './components/projects/Projects'
+
 
 function App () {
   
@@ -23,6 +25,7 @@ function App () {
         <Skills></Skills>
         <Services></Services>
         <Qualification></Qualification>
+        <Projects></Projects>
         <Testimonial></Testimonial>
         <Contact></Contact>
         <Footer></Footer>
